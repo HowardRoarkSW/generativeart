@@ -1,0 +1,14 @@
+from turtle import *
+
+speed(12)
+bgcolor('black')
+pencolor('cyan')
+
+for i in range(50):
+    circle(180-i, 100)
+    lt(90)
+    circle(180-i, 100)
+    lt(10)
+
+exitonclick()
+
